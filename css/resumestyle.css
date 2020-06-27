@@ -19,6 +19,31 @@ img{
 	margin: 2px;
 	padding-left: 10px;
 }
+.left, .right{
+	border: 2px solid #000;
+	margin: 2px;
+}
 .parent{
 	display: flex;
 }
+/*media queries for mobile view*/
+@media screen and (max-width: 425px){
+	.left{
+		flex-direction: column;
+	}
+	.Technical{
+		background-color: #c4e533;
+	}
+}
+/*tablet media queries
+@media screen and (min-width: 426px) and (max-width: 768px){
+	.parent{
+		flex-direction: row-reverse;
+		justify-content: space-between;
+	}
+	.Technical, .hobbies, .career, .education, .project, .declare{
+		background-color: #ddd;
+		border-radius: 20px;
+		width: 300px;
+	}
+}*/0
