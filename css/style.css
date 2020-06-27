@@ -1,0 +1,26 @@
+#para{
+	background-color: skyblue;
+	color: green;
+}
+.para{
+	background-color: lightgrey;
+	color: green;
+}
+#paragraph{
+	background-color: lightgrey;
+	color: green;
+}
+
+.first, .second, .third, .fourth{
+	border: 2px solid #000;
+	margin: 2px;
+	width: 400px;
+	text-align: center;
+}
+img{
+	padding: 10px;
+}
+.parent{
+	display: flex;
+	flex-direction: row-reverse;
+}

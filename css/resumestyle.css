@@ -1,0 +1,24 @@
+.profile{
+	text-align: center;
+	border: 2px solid #000;
+	margin: 2px;
+	width: 400px;
+	padding-left: 10px;
+}
+img{
+	padding: 10px;
+}
+.Technical, .hobbies{
+	border: 2px solid #000;
+	margin: 2px;
+	width: 400px;
+	padding-left: 10px;
+}
+.career, .education, .project, .declare{
+	border: 2px solid #000;
+	margin: 2px;
+	padding-left: 10px;
+}
+.parent{
+	display: flex;
+}
