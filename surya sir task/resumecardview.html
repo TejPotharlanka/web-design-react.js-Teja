@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<style>
+		.parent{
+			display: flex;
+			flex-direction: row;
+		}
+		.card {
+			text-align: center;
+  			border: 2px solid #000;
+  			height: 350px;
+  			width: 300px;
+  			border-radius: 20px;
+  			margin-right: 20px;
+  			padding: 1%;
+		}
+
+		.card img{
+			width: 200px;
+			height: 200px;
+		}
+		a{
+			text-decoration: none;
+			width: 50px;
+			height: 10px;
+			padding: 10px 10px;
+			color: #fff;
+			background: #262626;
+		}
+	</style>
+</head>
+<body> 
+	<div class="parent">
+	<div id="hello">
+		<!-- <button onclick="window.location = 'indexst.html'">HTML Codes!</button> -->
+	</div>
+
+	<div id="hello1">
+		<!-- <button onclick="window.location = 'intern.html'">HTML Codes!</button> -->
+	</div>
+	</div>
+	
+	
+</body>
+	<script type="text/javascript">
+		
+		 var a=document.querySelector("#hello");
+		 var div=document.createElement("div");
+		 div.setAttribute("class","card");
+		 a.appendChild(div);
+		 console.log(a);
+		 var image=document.createElement("img");
+		 image.src="profiledynamic.jpg";
+		 div.appendChild(image);
+
+		 //var b=document.querySelector("#child1")
+		 //var div1=document.createElement("div");
+		 //div.setAttribute("class","container");
+		 //b.appendChild(div1);
+		 var text=document.createElement("h5");
+		 text.textContent="Potharlanka Tejaswi";
+		 div.appendChild(text);
+
+		 var text=document.createElement("h5");
+		 text.textContent="16471A05B8";
+		 div.appendChild(text);
+
+
+		 var button = document.createElement("a");
+		 button.href = "./indexst.html",
+		 button.textContent = "Open Resume";
+		 div.appendChild(button);
+
+
+
+		 // var b=document.querySelector("#button");
+		 //var button=document.createElement("btn");
+
+		 //second card
+		 var b=document.querySelector("#hello1");
+		 var div=document.createElement("div");
+		 div.setAttribute("class","card");
+		 b.appendChild(div);
+		 console.log(b);
+		 var image=document.createElement("img");
+		 image.src="profilestatic.png";
+		 div.appendChild(image);
+
+		 var text=document.createElement("h5");
+		 text.textContent="Potharlanka Tejaswi";
+		 div.appendChild(text);
+
+		 var text=document.createElement("h5");
+		 text.textContent="16471A05B8";
+		 div.appendChild(text);
+
+		 var button = document.createElement("a");
+		 button.href = "./intern.html",
+		 button.textContent = "Open Intern Details";
+		 div.appendChild(button);
+		 
+		 //div.appendChild(document.createElement("hr"));
+
+
+
+	</script>
+	<!-- <script type="text/javascript">
+		function buttononClick() {
+		 	window.location.href = "indexst.html";
+		}
+	</script> -->
+</html> 
+
+<!-- <body >
+<div id="hello"></div>
+<button onclick="cards()">click me</button>
+</body>
+<script>
+function cards(){
+	var div=document.createElement("div");
+ 	div.setAttribute("class","card");
+ 	var image=document.createElement("img");
+ 	image.src="profiledynamic.jpg";
+ 	image.alt = "teju";
+ 	div.appendChild(image);
+ 	document.getElementById("hello").appendChild(div);
+ //var b=document.querySelector("#child1")
+ 	var div1=document.createElement("div");
+	div1.setAttribute("class","container");
+	var name=document.createElement("h5");
+	name.textContent="Potharlanka Tejaswi";
+	div1.appendChild(name);
+	document.getElementById("hello").appendChild(div1);
+}
+</script>
+</html> -->
+
+
+<!-- <div class="parent">
+	<div class="card">
+		<img src="profilestatic.png" alt="Avatar">
+		<div class="container">
+			<p> Potharlanka Tejaswi</p>
+			<p> 16471A05B8</p>
+			<button type="button" id="txtbtn" onclick="buttonClick()">Static</button>
+		</div>
+
+	</div>
+	<div class="card">
+		<img src="profiledynamic.jpg" alt="Avatar" height="200px">
+		<div class="container">
+			<p> Potharlanka Tejaswi</p>
+			<p> 16471A05B8</p>
+			<button type="button" id="txtbtn" onclick="buttononClick()">Dynamic</button>
+		</div>
+
+	</div>
+</div> -->
+
+<!-- // function buttonClick() {
+		// 	window.location.href = "resume.html";
+		// }
+		// function buttononClick() {
+		// 	window.location.href = "indexst.html";
+
+		// } -->

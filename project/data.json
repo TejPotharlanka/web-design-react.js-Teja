@@ -1,0 +1,72 @@
+{
+	"details":{
+		"name":"Teja",
+		"email":"tejpotharlanka@gmail.com",
+		"number":"9999922222",
+		"Address":"Nellore"
+	},
+	"careerobjective":{
+		"info":"To obtain a position as a Software Engineer in a reputed Organization with a focus to learn and contribute to its growth."
+	},
+	"educationqualification":[
+		{
+			"institute":"NEC",
+			"degree":"B.Tech",
+			"passoutyear":"2020",
+			"percentage":"82%"
+		},
+		{
+			"institute":"Sri Chaitanya Jr College",
+			"degree":"Intermediate",
+			"passoutyear":"2016",
+			"percentage":"91%"
+		},
+		{
+			"institute":"Hindu High School",
+			"degree":"SSC",
+			"passoutyear":"2014",
+			"percentage":"97%"
+		}
+	],
+
+	"technicalskills":[{
+		"title":"Programming Languages",
+		"info":["c,Java,R,Python"]
+	},
+	{
+		"title":"Database",
+		"info":["Mysql,sql"]
+	},
+	{
+		"title":"Operating System",
+		"info":"windows,linux"
+	}
+	],
+	"project":[{
+			"des":"Java Quiz App"
+		},
+		{
+			"des":"Description",
+			"des1":"JAVA QUIZ Application developed to provide an effect challenge to the user by providing quiz on every topic based on JAVA."
+		},
+		{
+			"des":"Operating System",
+			"des1":"Android"
+		},
+		{
+			"des":"Platform",
+			"des1":"Android Studio"
+		},
+		{
+		"des":"Role",
+		"des1":"Designed activities required to my Application, converting data into JSON data."
+		}
+	],
+	"declare":{
+		"info":"I here by declare that above furnished information is true to the best of my knowledge and belief."
+	}
+}
+
+
+
+

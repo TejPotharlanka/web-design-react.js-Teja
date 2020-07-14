@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Document</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+</head>
+<body>
+	<h1 id="root"></h1>
+	<h2 id="root1"></h2>
+</body>
+<script type="text/javascript">
+	var a=5; //global
+	//for(a=0;a<=10;a++)
+	{
+		var a=10;
+		console.log("local variable=10");
+		console.log(a);
+	}
+	//document.querySelector("#root").innerHTML=a;
+	console.log("global variable=5");
+	console.log(a);
+
+//let
+	let b=5;
+	//for(b=0;b<=10;b++)
+	{
+		let b=10;
+		console.log("local let key=10");
+		console.log(b);
+	}
+	// document.querySelector("#root1").innerHTML=b;
+	console.log("global let key=5");
+	console.log(b);
+
+	const c=3.14;
+	//for(b=0;b<=10;b++)
+	{
+		const c=10;
+		console.log("local let key=10");
+		console.log(c);
+	}
+	// document.querySelector("#root1").innerHTML=b;
+	console.log("global let key=5");
+	console.log(c);
+
+	// filter
+		var a=[1,2,3,4,5];
+		a.filter(i =>console.log(i));
+	//map
+		var a=[1,2,3,4,5];
+		a.map(i =>console.log(i));
+	// for of
+	let x="Tejaswi";
+	for(i of x){
+    console.log(i);
+	}
+
+	//for in
+	for(i in x){
+    console.log(i); // gives index
+	}
+
+	//for in
+	for(i in x){
+    console.log(x[i]); //gives letter one by one
+	}
+
+	//template literals
+	var z=`Tejaswi
+	Sai
+	Surya`;
+	var e=10;
+	console.log(z+ `${e}`);
+</script>
+</html>

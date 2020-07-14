@@ -1,0 +1,71 @@
+{
+	"details":[{
+		"names":"Rajesh Nallaboina"
+	},
+	{
+		"names":"N.Surya Narayana"
+	},
+	{
+		"names":"K.Apparao Swami"
+	},
+	{
+		"names":"V.Gayatri Devi"
+	},
+	{
+		"names":"D.Sai Ram"
+	}
+	],
+	"overview":{
+		"des":"The main objective of this React Certification course is to help you become familiar with the process and gain the skills you'll need to become a professional React developer. You will learn the fundamentals of React through self-paced and instructor-led training to understand and build React components and structure applications with Redux."
+	},
+	"content":[{
+		"data":"Introduction to web design and development"
+	},
+	{
+		"data":"Introduction to HTML5 and CSS3"
+	},
+	{
+		"data":"Introduction to bootstrap and JSON"
+	},
+	{
+		"data":"Javascript and DOM manipulations"
+	},
+	{
+		"data":"Parsing JSON data using Javascript(Ajax and fetch API)"
+	},
+	{
+		"data":"ES6 Fundamentals"
+	},
+	{
+		"data":"Introduction to Node and React Js"
+	},
+	{
+		"data":"Component lifecycle methods"
+	},
+	{
+		"data":"Finally assigning tasks day by day according to the topics discussed in daily class."
+	}
+	],
+	"trainerdetails":[{
+		"name":"Rajesh Nallaboina",
+		"mail":"rajesh.n@apssdc.in"
+	},
+	{
+		"name":"N. Surya Narayana",
+		"mail":"venkatasuryanarayana.n@apssdc.in"
+	},
+	{
+		"name":"K. Apparao Swami",
+		"mail":"apparaoswami.k@apssdc.in"
+	},
+	{
+		"name":"V. Gayatri Devi",
+		"mail":"gayatridevi.v@apssdc.in"
+	},
+	{
+		"name":"D. Sai Ram",
+		"mail":"sairam.d@apssdc.in"
+	}
+	]
+		
+}
