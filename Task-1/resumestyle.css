@@ -1,0 +1,65 @@
+.profile{
+	text-align: center;
+	border: 2px solid #000;
+	border-radius: 20px;
+	border-color: white;
+	background-color: #EEECEC;
+	margin: 2px;
+	width: 400px;
+	padding-left: 10px;
+}
+img{
+	padding: 10px;
+	border-radius: 50%
+}
+.Technical, .hobbies{
+	border: 2px solid #000;
+	border-radius: 20px;
+	border-color: white;
+	background-color: #EEECEC;
+	margin: 2px;
+	width: 400px;
+	padding-left: 10px;
+}
+.career, .education, .project, .declare{
+	border: 2px solid #000;
+	border-radius: 20px;
+	border-color: white;
+	background-color: #EEECEC;
+	margin: 2px;
+	margin: 2px;
+	padding-left: 10px;
+}
+.left, .right{
+	border: 2px solid #000;
+	margin: 2px;
+}
+.parent{
+	display: flex;
+	flex-wrap: wrap;
+}
+/*media queries for mobile view*/
+@media screen and (max-width: 425px){
+	.left{
+		flex-direction: column;
+	}
+	.Technical{
+		background-color: #c4e533;
+	}
+}
+/*tablet media queries*/
+@media screen and (min-width: 426px) and (max-width: 768px){
+	.parent{
+		flex-direction: row-reverse;
+		justify-content: space-between;
+	}
+	.Technical, .hobbies{
+		background-color: #def012;
+		border-radius: 20px;
+		width: 300px;
+	}
+	.career, .education, .project, .declare{
+		background-color: #c4e533;
+		border-radius: 20px;
+	}
+}
